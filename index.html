@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/pdf.html">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/portfolio/nam2-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span> junaid</span> <br> from vellore</h1>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- --------------about session--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/about/You can_t buy happiness but you can buy a bike and that_s pretty close.___rr310  _bmw  _tvs(WEBP).webp"
+                        alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am a full-stack developer with expertise in HTML, CSS, JavaScript, React, and Bootstrap,
+                        specializing in creating dynamic and responsive web applications. With skills in both front-end
+                        and back-end development, I bring ideas to life through clean, maintainable code and
+                        user-friendly design. I am dedicated to continuous learning and staying current with industry
+                        trends, enabling me to develop modern, high-quality solutions that enhance user experience and
+                        meet business needs.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+
+                            <li><span>
+                                    <h2>Front end </h2>
+                                </span><br> HTML , CSS , JavaScript , Bootstrap , Tailwind</li>
+                            <li><span>
+                                    <h2>Back end</h2>
+                                </span><br>Node.js , REST APIs , Databases (Mysql,sql workbench)</li>
+                            <li><span>
+                                    <h2>Other skills</h2>
+                                </span><br>Version control (Git,Github), Visual Studio Code , Responsive design ,
+                                deployment(netlify,vercel,firebase)</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>
+                                    <h2>Project </h2>
+                                </span><br> Email-register-form, Apple tv clone, Car showroom, Snacks shop, Gridgallery,
+                                To-do-list.</li>
+                            <li><span>
+                                    <h3>Projects description</h3>
+                                </span><br>Briefly explain each project, focusing on what it
+                                accomplishes and your role in building it.</li>
+                            <li><span>
+                                    <h3>Technologies Used</h3>
+                                </span><br> Highlight your use of HTML, CSS, JavaScript, Bootstrap, Tailwind, etc.</li>
+                            <li><span>
+                                    <h3>Skills Developed</h3>
+                                </span><br> Understanding of layout, color theory, and design principles to create
+                                user-friendly interfaces and Familiarity with testing and optimizing websites for
+                                different browsers.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><h2>2024-current</h2></span><br> Full stack Developer in cora wings</li>
+                            <li><span><h2>2023</h2></span><br>Completed data analyst </li>
+                            <li><span><h2>2020-2023</h2></span><br>Completed MCA (master's degree )</li>
+                            <li><span><h2>2017-2020</h2></span><br>Completed BCA (Under graduate degree)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------service---------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-brands fa-html5" style="color: #e0673d;"></i>
+                    <h2>HTML 5</h2>
+                    <p>I am skilled in HTML, using it to create clean, well-structured websites. I focus on writing
+                        semantic HTML to ensure accessibility and SEO optimization. With a solid understanding of HTML5,
+                        I build responsive layouts and intuitive navigation. My goal is to create well-organized,
+                        user-friendly websites that provide a seamless experience across different devices and screen
+                        sizes.
+                    </p>
+                    <a href="https://www.w3schools.com/html/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3" style="color: #4790ba;"></i>
+                    <h2>CSS 3</h2>
+                    <p>I am proficient in CSS, creating visually appealing, responsive designs. I utilize modern
+                        techniques like Flexbox, Grid, and custom properties to build adaptive layouts. I focus on
+                        clean, maintainable code to ensure fast load times and smooth user experiences. My goal is to
+                        deliver polished, mobile-first designs that look great and function flawlessly across all
+                        devices.
+
+                    </p>
+                    <a href="https://www.w3schools.com/css/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js" style="color: #cbcb3c;"></i>
+                    <h2>JavaScript</h2>
+                    <p>I am skilled in JavaScript, using it to create interactive and dynamic web applications. I focus
+                        on writing clean, efficient code for features like form validation, content updates, and event
+                        handling. With a strong understanding of ES6+ syntax, my goal is to build smooth, engaging user
+                        experiences that enhance functionality and performance across websites and web applications.</p>
+                    <a href="https://www.w3schools.com/js/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-bootstrap" style="color: #7111f5;"></i>
+                    <h2>Bootstrap</h2>
+                    <p>I am proficient in Bootstrap, using its grid system and pre-built components to design
+                        responsive, mobile-first websites quickly. I leverage Bootstrap’s utility classes to streamline
+                        development and create modern, user-friendly interfaces. My goal is to build adaptable layouts
+                        that provide consistent, high-quality experiences across all devices, reducing development time
+                        while maintaining clean and efficient code.</p>
+                    <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-node-js" style="color: #78b500;"></i>
+                    <h2>Node-Js</h2>
+                    <p>I am proficient in Node.js, building fast, scalable back-end applications with its event-driven
+                        architecture. Using frameworks like Express.js, I streamline routing and middleware for
+                        maintainable code. Node.js integrates seamlessly with databases and APIs, making it ideal for
+                        full-stack development. My focus is delivering high-performance, dynamic, and scalable web
+                        applications.</p>
+                    <a href="https://www.w3schools.com/nodejs/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wrench" style="color: #4f5869;"></i>
+                    <h2>AI-Tool-Kit</h2>
+                    <p>I integrate AI toolkits like TensorFlow.js with HTML, CSS, JavaScript, Bootstrap, and Node.js to
+                        build dynamic, data-driven web applications. Using HTML and CSS for structure and design,
+                        JavaScript for interactivity, Bootstrap for responsive layouts, and Node.js for scalable
+                        back-end solutions, I enhance user experiences with AI-powered features like predictive
+                        analytics and natural language processing.</p>
+                    <a href="https://learn.microsoft.com/en-us/windows/ai/toolkit/">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+        <!-- ------------------portfolio------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="/project/new1.jpg" alt="">
+                        <div class="layer">
+                            <h3>Email resgister form </h3>
+
+                            <p>Email resgister form using HTML and CSS only template and no responsive.
+                            </p>
+                            <a href="https://registration-from-junaid.netlify.app/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/project/i1.jpg" alt="">
+                        <div class="layer">
+                            <h3>Apple TV clone</h3>
+
+                            <p>By using HTML and CSS make a clone of Apple TV with the mobile responsive.
+                            </p>
+                            <a href="https://junaid07.netlify.app/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/project/s2.jpg" alt="">
+                        <div class="layer">
+                            <h3>Snacks shop</h3>
+
+                            <p>By using HTML and CSS make a snacks shop with the mobile responsive..
+                            </p>
+                            <a href="https://snacks-shop-junaid-ahmed.netlify.app/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/project/g1.jpg" alt="">
+                        <div class="layer">
+                            <h3>Gride Gallery </h3>
+
+                            <p>A grid gallery using HTML and CSS and with the mobile responsive.
+                            </p>
+                            <a href="https://gridgalleryjunaid.netlify.app/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/project/c3.jpg" alt="">
+                        <div class="layer">
+                            <h3>Car showroom </h3>
+
+                            <p>car showroom by using HTML ,CSS ,JavaScript ,bootstrap and with the mobile responsive.
+                            </p>
+                            <a href="https://bootstrap-project-carshowroom-junaid.netlify.app/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/project/cap1.webp" alt="">
+                        <div class="layer">
+                            <h3>TO-DO-LIDT </h3>
+
+                            <p>TO-DO-LIST by using HTML ,CSS ,JavaScript and with the mobile responsive.
+                            </p>
+                            <a href="https://to-do-list-junnu.netlify.app/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------contact--------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <i class="fa-regular fa-paper-plane"></i>sdjunaidahmed@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>9894279946</p>
+                    <div class="socail-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100009667472169"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/junaid_3125/profilecard/?igsh=eDhrejcwejBxcG1i"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/junaid_ahmedmd"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/junaid-ahmed-017861263/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Junaidba"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <!-- <a href="/cv/Junaid_Ahmed_Data_analyst.pdf" download class="btn btn2">Download CV</a> -->
+                    <!-- <a href="/pdf.html" download class="btn btn2">Download CV</a> -->
+                    <a href="/pdf.html" class="btn btn2">Download CV & View</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="submit-to-google-sheet">
+                        <input type="hidden" name="access_key" value="22ac6012-ff1c-4812-a10f-2755698bdfe1">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; <i class="fa-solid fa-heart"></i> junaid's portfolio </p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwLnRc41XCAo1YcW0fLSg5d_Rj1-A1TzsT83LW38h6LQ8dd5fWlwPWvs_u4EmXWgKkEhw/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
